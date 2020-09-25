@@ -1,5 +1,5 @@
 # limesurvey-SSOAuth
-
+Lime Survey 3+
 This is a simple Unidirectional SSO using secret_key and hash_hmac to create a secure SSO without requiring any token generation or complicated request logic. This works with a simple get request with some data (params) and hashed value for authentication 
 
 ```php
