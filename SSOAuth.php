@@ -10,7 +10,7 @@ class SSOAuth extends AuthPluginBase {
 			'secret_key' => array(
             'type' => 'string',
             'label' => 'Secret Key (32 digit Key)',
-            'default' => 'uwHeEqRzPddpdwLRkJqDDJZDNqDmc6Pr',
+            'default' => 'WW4TdZgQkerUav43AQPeRrxcdDWx4y95',
         ),
             'logoffurl' => array(
             'type' => 'string',
