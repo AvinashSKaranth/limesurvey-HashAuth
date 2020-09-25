@@ -10,6 +10,6 @@
         <version>1.0.0</version>
         <lastSecurityUpdate>1.0.0</lastSecurityUpdate>
         <license>Apache License Version 2.0</license>
-        <description><![CDATA[LimeSurvey SSO auth plugin for Version 3.]]></description>
+        <description><![CDATA[This is a simple Unidirectional SSO for LimeSurvey 3 using secret_key and hash_hmac to create a secure SSO without requiring any token generation or complicated request logic. This works with a simple get request with some data (params) and hashed value for authentication .]]></description>
     </metadata>
 </config>
