@@ -1,0 +1,15 @@
+<config>
+    <metadata>
+        <name>SSOAuth</name>
+        <type>plugin</type>
+        <creationDate>2020-09-25</creationDate>
+        <lastUpdate>2020-09-25</lastUpdate>
+        <author>Avinash S Karanth</author>
+        <authorUrl>https://github.com/AvinashSKaranth</authorUrl>
+        <supportUrl>https://github.com/AvinashSKaranth/limesurvey-SSOAuth/issues</supportUrl>
+        <version>1.0.0</version>
+        <lastSecurityUpdate>1.0.0</lastSecurityUpdate>
+        <license>Apache License Version 2.0</license>
+        <description><![CDATA[LimeSurvey SSO auth plugin for Version 3.]]></description>
+    </metadata>
+</config>
