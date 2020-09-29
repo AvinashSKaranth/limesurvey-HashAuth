@@ -11,7 +11,7 @@ $data["email"]    = "admin@example.com";
 $data["name"]     = "admin";
 $data["time"]     = round(microtime(true) * 1000);
 $hash             = hash_hmac('sha256',json_encode($data,JSON_NUMERIC_CHECK),$secretKey);
-$url = $LIMESURVEY_APP_URL."/index.php/admin/authentication/sa/login?authMethod=SSOAuth&username=".$data["username"]."&email=".$data["email"]."&name=".$data["name"]."&time=".$data["time"]."&hash=".$hash."&loginlang=default&action=login&login_submit=login";
+$url = $LIMESURVEY_APP_URL."/index.php/admin/authentication/sa/login?authMethod=HashAuth&username=".$data["username"]."&email=".$data["email"]."&name=".$data["name"]."&time=".$data["time"]."&hash=".$hash."&loginlang=default&action=login&login_submit=login";
 header('Location: '.$url);
 ?>
 ```
